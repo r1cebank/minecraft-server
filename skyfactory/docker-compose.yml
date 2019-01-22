@@ -2,7 +2,7 @@ version: '3'
 
 services:
   minecraft:
-    image: itzg/minecraft-server
+    image: r1cebank/minecraft-server
     ports:
       - "25565:25565"
     volumes:
