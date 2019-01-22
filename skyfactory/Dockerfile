@@ -23,6 +23,6 @@ RUN addgroup -g 1000 minecraft \
 EXPOSE 25565
 VOLUME ["/minecraft"]
 WORKDIR /minecraft
-COPY start.sh /minecraft
-COPY server.properties /tmp/server.properties
+COPY skyfactory/start.sh /minecraft
+COPY skyfactory/server.properties /tmp/server.properties
 ENTRYPOINT [ "/minecraft/start.sh" ]
